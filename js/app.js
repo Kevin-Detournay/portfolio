@@ -25,7 +25,7 @@ const app = {
   init:()=>{
     app.scrollFunction()
     AOS.init()
-    var rellax=new Rellax('.rellax')
+    new Rellax('.rellax')
   
   },
 
