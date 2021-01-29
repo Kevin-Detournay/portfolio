@@ -40,7 +40,7 @@ p{
     width:20%;
     border-left:1px dotted grey ;
 }
-.colone:last-child{
+.column:last-child{
     width:20%;
     border-right:1px dotted grey ;
 }
