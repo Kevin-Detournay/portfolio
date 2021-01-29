@@ -19,13 +19,13 @@ const app = {
 
   },
 
-
-  
+    
 
   init:()=>{
     app.scrollFunction()
     AOS.init()
     new Rellax('.rellax')
+    
   
   },
 

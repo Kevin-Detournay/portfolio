@@ -26,6 +26,24 @@ p{
     from, to { border-color: transparent }
     50% { border-color: #ff4d5a; }
 }
+.grid{
+    position:fixed;
+    display: flex;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    justify-content: center;
+}
+.colone{
+    width:20%;
+    border-left:1px dotted grey ;
+}
+.colone:last-child{
+    width:20%;
+    border-right:1px dotted grey ;
+}
 .monogram{
     position: absolute;
     left: 50%;
@@ -265,7 +283,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
   
 }
 .item{
@@ -284,6 +302,8 @@ main{
    .item__image{
        margin-bottom:1rem;
    }
+
+
  .item:nth-child(even){
      align-self: flex-end;
  }
