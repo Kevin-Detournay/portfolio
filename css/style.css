@@ -328,11 +328,13 @@ main{
 .item__body{
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-top: 10rem; 
     flex: 0 0 auto;
     z-index: 1;
     background:white;
+    height:20%;
+    transition:all .3s
     
 }
    
@@ -343,28 +345,22 @@ main{
     
     
 }
+.item__body:hover{
+height:60%;
+}
 .item__title{
     flex: 0 1 auto;
     font-weight: bold;
     margin-bottom: .5rem;
     color:black;
-
-    
-    
+  
 }
 .item__description{
     color:black;
     line-height: 1.2;
      height: auto;
      margin-bottom: 2rem;
-     
-
-
-} 
-.item__description.is-hidden{
-   opacity: 0;
-    height:0;
-    margin-bottom: 1rem;
+    } 
     
 }
 .item__subtitle{
