@@ -314,16 +314,16 @@ main{
     flex: 0 1 auto;
 }
 #theWall{
-    background-image: url(../image/mock\ up.png);
+    background-image: url(../image/thewall2.png);
 }
 #desChoses{
-    background-image: url(../image/mockupdeschoses.png);
+    background-image: url(../image/desch.png);
 }
 .item__image{
     height: 100%;
     width:100%;
     background-size: cover;
-    background-position: center center;
+    background-position: left top;
     background-repeat: no-repeat;
 }
 
@@ -337,7 +337,8 @@ main{
     z-index: 1;
     background:white;
     height:20%;
-    transition:all .3s
+    transition:all .3s;
+   
     
 }
    
