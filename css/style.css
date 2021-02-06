@@ -316,6 +316,9 @@ main{
 #theWall{
     background-image: url(../image/mock\ up.png);
 }
+#desChoses{
+    background-image: url(../image/mockupdeschoses.png);
+}
 .item__image{
     height: 100%;
     width:100%;
