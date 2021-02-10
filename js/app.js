@@ -19,7 +19,7 @@ const app = {
     app.scrollFunction()
     AOS.init()
     new Rellax('.rellax')
-    app.toggleIsHidden()
+   
   
   },
 

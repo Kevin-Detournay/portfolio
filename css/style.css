@@ -427,7 +427,10 @@ height:60%;
     left:0%
 }
 
-
+.warning{
+    font-size: .8em;
+    color:#ff4d5a
+}
 /* mediaQueries */
 @media screen and (min-width:380px){
     
