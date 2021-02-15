@@ -185,6 +185,17 @@ main{
     padding: 1rem;
       
 }
+.enSavoirPlus{
+    
+    color:#ff4d5a;
+    font-size: .8em;
+    transition:all .3s
+}
+.enSavoirPlus:hover{
+   font-size: 1em;
+ 
+}
+
 
 .stack{
     display: flex;
