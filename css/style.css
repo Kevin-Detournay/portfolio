@@ -330,6 +330,9 @@ main{
 #desChoses{
     background-image: url(../image/desch.png);
 }
+#eShop{
+    background-image: url(../image/eshop.png);  
+}
 .item__image{
     height: 100%;
     width:100%;
