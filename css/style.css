@@ -333,6 +333,9 @@ main{
 #eShop{
     background-image: url(../image/eshop.png);  
 }
+#switch{
+    background-image: url(../image/switch.png);
+}
 .item__image{
     height: 100%;
     width:100%;
