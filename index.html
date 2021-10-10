@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image"              content="https://kevindetournay.com/image/meta.png" />
+    <meta property="og:image" content="https://kevindetournay.com/image/meta.png"/>
     <title>Kevin Detournay</title>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HRJKVN16H9"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-HRJKVN16H9');
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-HRJKVN16H9');
     </script>
-    
+
     <link rel="apple-touch-icon" sizes="180x180" href="./image/icones/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./image/icones/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./image/icones/favicon_io/favicon-16x16.png">
@@ -25,235 +29,248 @@
 </head>
 
 <body>
-    
-    <header class="header ">
-        <nav class="header__nav">
-            <ul class="header__nav__list">
-                <!-- ancre -->
-                <li class="header__nav__list__items "><a href="#aPropos">A Propos</a></li>
-                <li class="header__nav__list__items "><a href="#stack">Stack</a></li>
-                <li class="header__nav__list__items "><a href="#projects">Projets</a></li>
-                <li class="header__nav__list__items" ><a href="#contact">Contact</a></li>
-                
-            </ul>
-        </nav>
-        
-        <div class="header__maindiv" >
-            
-            <h1 class="header__main-title rellax" data-rellax-speed="4">Kevin <br>
-                Detournay
-            </h1>
-            <h2 class="header__subtitle rellax" data-rellax-speed="2">Développeur Javascript.</h2>
-        </div>
-        <div class="downIcone"><img src="./image/icones/down.svg" alt=""></div>
-        <a href="#contact" class="contact">Me contacter</a>
-        <div class="monogram"><img src="./image/monogram test3.png" alt=""></div>
-    </header>
-    <section class="grid">
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
-        <div class="column"></div>
+
+<header class="header ">
+    <nav class="header__nav">
+        <ul class="header__nav__list">
+            <!-- ancre -->
+            <li class="header__nav__list__items "><a href="#aPropos">A Propos</a></li>
+            <li class="header__nav__list__items "><a href="#stack">Stack</a></li>
+            <li class="header__nav__list__items "><a href="#projects">Projets</a></li>
+            <li class="header__nav__list__items"><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="header__maindiv">
+
+        <h1 class="header__main-title rellax" data-rellax-speed="4">Kevin <br>
+            Detournay
+        </h1>
+        <h2 class="header__subtitle rellax" data-rellax-speed="2">Développeur Javascript.</h2>
+    </div>
+    <div class="downIcone"><img src="./image/icones/down.svg" alt=""></div>
+    <a href="#contact" class="contact">Me contacter</a>
+    <div class="monogram"><img src="./image/monogram test3.png" alt=""></div>
+</header>
+<section class="grid">
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+    <div class="column"></div>
+</section>
+<main>
+
+    <section class="aPropos" id="aPropos">
+        <h3 class="section__title">A Propos</h3>
+        <div class="section__container">
+            <div class="aPropos__container">
+                <div class="aPropos__picture " data-aos="fade-left" data-aos-duration="1500">
+                    <img src="./image/125466600_851028118994311_3319138093171653649_n.png" alt="">
+                </div>
+                <div class="aPropos__text">
+                    <div class="quote"><img src="./image/icones/quote.svg" alt=""></div>
+                    <p>
+                        Je suis Kevin et j'ai 29 ans.</br>
+                    </p>
+                    <p>
+                        Développeur depuis 2020, je suis actuellement en post dans une startup Lilloise
+                        où je me plais à effectuer des missions front end (Vue.js) et back end (php-laravel, Go,
+                        Typescript...)
+                    </p>
+                    <p>
+                        La variété des missions ainsi que la confiance que l'on m'accorde, sont pour moi un réel moteur
+                        pour devenir un peu meilleur chaque jour.
+                    <div class="linkedin">
+                        <a target="blank" href="https://www.linkedin.com/in/kevin-detournay-2a604487/"><img
+                                class="image"
+                                src="./image/linkedin.svg" alt="linked in"></a>
+                    </div>
+                    <span class="enSavoirPlus">
+                                    <a target="blank"
+                                       href="https://www.notion.so/Kevin-Detournay-a57c73b6788a4fa3a48aa8cf116f76bb">En savoir plus ...</a>
+                     </span>
+                </div>
+            </div>
+            </div>
     </section>
-    <main>
-        
-        <section class="aPropos" id="aPropos">
-            <h3 class="section__title" >A Propos</h3>
-            <div  class="section__container">
-                <div class="aPropos__container">
-                    <div class="aPropos__picture " data-aos ="fade-left" data-aos-duration="1500">
-                        <img src="./image/125466600_851028118994311_3319138093171653649_n.png" alt="">
-                    </div>
-                    <div class="aPropos__text">
-                        <div class="quote"><img src="./image/icones/quote.svg" alt=""></div>
-                        <p>
-                            Je suis Kevin, j'ai 28 ans.</br>
-                            Après 7 ans dans l’univers du textile à occuper des postes décisionnels, j’ai saisi l’opportunité de faire de ma passion mon métier. </p> 
-                            <p>
-                                Je suis aujourd’hui un développeur web et mobile passionné, spécialisé en Javascript Front-end (React js) et Back end (Node js)
-                            </p>
-                            
-                            
-                            <p>
-                                Pour faire suite à ma formation chez O'clock,
-                                je suis à la recherche d'un job dans la région Lilloise .</p>
-                                <p>Ma créativité, mon agilité 
-                                    et mon attrait pour le travail en équipe seront mes forces .</p> 
-                                <div class="linkedin">
-                                    <a target="blank" href="https://www.linkedin.com/in/kevin-detournay-2a604487/"><img class="image"
-                                        src="./image/linkedin.svg" alt="linked in"></a>
-                                    </div>
-                                <span class="enSavoirPlus">
-                                    <a target="blank" href="https://www.notion.so/Kevin-Detournay-a57c73b6788a4fa3a48aa8cf116f76bb">En savoir plus ...</a>
-                                    </div>
-                                </span>
-                            </div>
-        </section>
-                        
-        
-        <section class="stack " id="stack">
-            <h3 class="section__title" >Stack </h3>
-            <div data-aos="fade-up" data-aos-duration="1500"  class="section__container">
-                <div class="stack__container">
-                    
-                    
-                    <div class="frontend">
-                        <h4 class="section__subtitle"> Front-end </h3>
-                            <ul>
-                                <li class="btn"><img class="icones" src="./image/icones/react.svg" alt="icone">React JS</li>
-                                <li class="btn"><img class="icones" src="./image/icones/redux.svg" alt="icone">Redux</li>
-                                <li class="btn"><img class ="icones" src="./image/icones/Sass_Logo_Color.svg" alt="icone">SCSS</li>
-                                <li class="btn"><img class="icones" src="./image/icones/next-js-seeklogo.com.svg" alt="icone">Next JS</li>
-                            </ul>
-                            
-                        </div> 
-                        
-                        <div class="backend">
-                            <h4 class="section__subtitle">Back-end</h3>
-                                <ul>
-                                    <li class="btn"><img class="icones" src="./image/icones/express.svg" alt="icone">Express JS </li> 
-                                    <li class="btn"><img class="icones" src="./image/icones/node-js.svg" alt="icone">Node JS </li> 
-                                    <li class="btn"><img class="icones" src="./image/icones/postgresql.svg" alt="icone">Postgres <br> SQL</li> 
-                                    <li class="btn"><img class="icones" src="./image/icones/sequelize.svg" alt="icone">Sequelize</li> 
-                                </ul>
-                            </div>
-                            
-                            <div class="others">
-                                <h4 class="section__subtitle">Others</h3>
-                                    <ul>
-                                        <li class="btn"><img class="icones" src="./image/icones/strapi-seeklogo.com.svg" alt="icone">Strapi</li> 
-                                        <li class="btn"><img class="icones" src="./image/icones/git.svg" alt="icone">Git</li> 
-                                        <li class="btn" ><img class="icones" src="./image/icones/npm.svg" alt="icone">Npm</li> 
-                                        <li class="btn"><img class="icones" src="./image/icones/slack.svg" alt="icone">Slack</li> 
-                                    </ul>
-                                </div>
-                                
-                                
-                            </div>
-                            </div> 
-        </section>
 
 
-        <section class="projects" id="projects">
-            <h2 data-aos ="fade-right" data-aos-duration="1500" class="section__title">Mes Derniers Projets</h2>
-            <div class="projects__container">
-                <div class="item">
-                    <div class="item__head">
-                        <a href="https://switchecommerce.netlify.app">
+    <section class="stack " id="stack">
+        <h3 class="section__title">Stack </h3>
+        <div data-aos="fade-up" data-aos-duration="1500" class="section__container">
+            <div class="stack__container">
+
+
+                <div class="frontend">
+                    <h4 class="section__subtitle"> Front-end </h4>
+                        <ul>
+                            <li class="btn"><img class="icones" src="./image/icones/react.svg" alt="icone">React JS</li>
+                            <li class="btn"><img class="icones" src="./image/icones/redux.svg" alt="icone">Redux</li>
+                            <li class="btn"><img class="icones" src="./image/icones/Sass_Logo_Color.svg" alt="icone">SCSS
+                            </li>
+                            <li class="btn"><img class="icones" src="./image/icones/next-js-seeklogo.com.svg"
+                                                 alt="icone">Next JS
+                            </li>
+                        </ul>
+
+                </div>
+
+                <div class="backend">
+                    <h4 class="section__subtitle">Back-end</h4>
+                        <ul>
+                            <li class="btn"><img class="icones" src="./image/icones/express.svg" alt="icone">Express JS
+                            </li>
+                            <li class="btn"><img class="icones" src="./image/icones/node-js.svg" alt="icone">Node JS
+                            </li>
+                            <li class="btn"><img class="icones" src="./image/icones/postgresql.svg" alt="icone">Postgres
+                                <br> SQL
+                            </li>
+                            <li class="btn"><img class="icones" src="./image/icones/sequelize.svg" alt="icone">Sequelize
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="others">
+                    <h4 class="section__subtitle">Others</h4>
+                        <ul>
+                            <li class="btn"><img class="icones" src="./image/icones/strapi-seeklogo.com.svg"
+                                                 alt="icone">Strapi
+                            </li>
+                            <li class="btn"><img class="icones" src="./image/icones/git.svg" alt="icone">Git</li>
+                            <li class="btn"><img class="icones" src="./image/icones/npm.svg" alt="icone">Npm</li>
+                            <li class="btn"><img class="icones" src="./image/icones/slack.svg" alt="icone">Slack</li>
+                        </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 data-aos="fade-right" data-aos-duration="1500" class="section__title">Mes Derniers Projets</h2>
+        <div class="projects__container">
+            <div class="item">
+                <div class="item__head">
+                    <a href="https://switchecommerce.netlify.app">
                         <div class="item__image" id="switch"></div>
-                        </a>
-                    </div>
-                    <div class="item__body">
-                        <a href="https://switchecommerce.netlify.app">
-                            <div class="item__header">
-                                <h4 class="item__title">"Switch"</h4> 
-                                <ul class="item__description is-hidden">
-                                    <li>Projet React et Redux </li>
-                                    <li>Site e-commerce Fonctionnel </li>
-                                    <li>Gestions des commandes, gestions des stocks </li>
-                                    <li>Gestion des paiement: Stripe </li>
-                                    <li>Uploads Image: Firebase</li>
-                                </ul>  
-                            </div>  
-                            <h5 class="item__subtitle">E-commerce from scratch</h5>    
-                        </a>        
-                    </div>                  
-                </div>  
-                
-                <div class="item">
-                    <div class="item__head">
-                            <a href="http://deschosesparmidautres.com">
-                            <div class="item__image" id="desChoses"></div>
-                            </a>
-                    </div>
-                    <div class="item__body">
-                        <a href="http://deschosesparmidautres.com">
-                            <div class="item__header">
-                                <h4 class="item__title">"deschosesparmidautres.com"</h4> 
-                                <ul class="item__description is-hidden">
-                                <li>Creation de blog statique (toutes les pages sont rendues)</li> 
+                    </a>
+                </div>
+                <div class="item__body">
+                    <a href="https://switchecommerce.netlify.app">
+                        <div class="item__header">
+                            <h4 class="item__title">"Switch"</h4>
+                            <ul class="item__description is-hidden">
+                                <li>Projet React et Redux</li>
+                                <li>Site e-commerce Fonctionnel</li>
+                                <li>Gestions des commandes, gestions des stocks</li>
+                                <li>Gestion des paiement: Stripe</li>
+                                <li>Uploads Image: Firebase</li>
+                            </ul>
+                        </div>
+                        <h5 class="item__subtitle">E-commerce from scratch</h5>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item__head">
+                    <a href="http://deschosesparmidautres.com">
+                        <div class="item__image" id="desChoses"></div>
+                    </a>
+                </div>
+                <div class="item__body">
+                    <a href="http://deschosesparmidautres.com">
+                        <div class="item__header">
+                            <h4 class="item__title">"deschosesparmidautres.com"</h4>
+                            <ul class="item__description is-hidden">
+                                <li>Creation de blog statique (toutes les pages sont rendues)</li>
                                 <li>Base de données : SQlite</li>
                                 <li>Mise en place de CMS (headless) pour maintenance facile</li>
                                 <li>Javascript vanilla</li>
                                 <li>Moteur de template Handlebars</li>
                                 <li>Creation d'un systeme de newsletter.</li>
-                                </ul>  
-                            </div>  
-                        <h5 class="item__subtitle">Creation de Blog</h5>         
-                        </a>        
-                    </div>                  
+                            </ul>
+                        </div>
+                        <h5 class="item__subtitle">Creation de Blog</h5>
+                    </a>
                 </div>
-                <div class="item">
-                    <div class="item__head">
-                        <a href="https://dry-sands-45238.herokuapp.com/">
-                        <div class="item__image" id="theWall"></div>
-                        </a>
-                    </div>
-                    <div class="item__body">
-                        <a href="https://dry-sands-45238.herokuapp.com/">
-                            <div class="item__header">
-                                <h4 class="item__title">"The Wall"</h4> 
-                                <ul class="item__description is-hidden">
-                                    <li>Api codée à la main avec Express et Node js</li>
-                                    <li>Base de données : Postgres SQL</li>
-                                    <li>Framework css: Bulma</li>
-                                    <li>Javascript vanilla</li>
-                                    <li>Drag and drop : Sortable JS</li>
-                                </ul>  
-                            </div>  
-                            <h5 class="item__subtitle">Application Kanban</h5>    
-                        </a>        
-                    </div>                  
-                </div>
-                <div class="item">
-                    <div class="item__head">
-                        <a href="https://test-next-js-git-main.kevin-detournay.vercel.app">
-                        <div class="item__image" id="eShop"></div>
-                        </a>
-                    </div>
-                    <div class="item__body">
-                        <a href="https://test-next-js-git-main.kevin-detournay.vercel.app">
-                            <div class="item__header">
-                                <h4 class="item__title">"E-shop"</h4> 
-                                <ul class="item__description is-hidden">
-                                    <li>Projet ReactJs et Next JS </li>
-                                    <li>Site Statique pour des performances maximales </li>
-                                    <li>Panier Fonctionnel avec Snipcart</li>
-                                    <li>Framework css: Tailwind</li>
-                                    <li>API "fake Store API"</li>
-                                </ul>  
-                            </div>  
-                            <h5 class="item__subtitle">site E-commerce Jamstack</h5>    
-                        </a>        
-                    </div>                  
-                </div>       
             </div>
-        </section>
+            <div class="item">
+                <div class="item__head">
+                    <a href="https://dry-sands-45238.herokuapp.com/">
+                        <div class="item__image" id="theWall"></div>
+                    </a>
+                </div>
+                <div class="item__body">
+                    <a href="https://dry-sands-45238.herokuapp.com/">
+                        <div class="item__header">
+                            <h4 class="item__title">"The Wall"</h4>
+                            <ul class="item__description is-hidden">
+                                <li>Api codée à la main avec Express et Node js</li>
+                                <li>Base de données : Postgres SQL</li>
+                                <li>Framework css: Bulma</li>
+                                <li>Javascript vanilla</li>
+                                <li>Drag and drop : Sortable JS</li>
+                            </ul>
+                        </div>
+                        <h5 class="item__subtitle">Application Kanban</h5>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="item__head">
+                    <a href="https://test-next-js-git-main.kevin-detournay.vercel.app">
+                        <div class="item__image" id="eShop"></div>
+                    </a>
+                </div>
+                <div class="item__body">
+                    <a href="https://test-next-js-git-main.kevin-detournay.vercel.app">
+                        <div class="item__header">
+                            <h4 class="item__title">"E-shop"</h4>
+                            <ul class="item__description is-hidden">
+                                <li>Projet ReactJs et Next JS</li>
+                                <li>Site Statique pour des performances maximales</li>
+                                <li>Panier Fonctionnel avec Snipcart</li>
+                                <li>Framework css: Tailwind</li>
+                                <li>API "fake Store API"</li>
+                            </ul>
+                        </div>
+                        <h5 class="item__subtitle">site E-commerce Jamstack</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-        <section class="meContacter "  id="contact">
-            <h3 class="section__title">me contacter</h3>
-            <div class="meContacter__container">
+    <section class="meContacter " id="contact">
+        <h3 class="section__title">me contacter</h3>
+        <div class="meContacter__container">
             <ul>
-                <li><a href="https://www.notion.so/Kevin-Detournay-a57c73b6788a4fa3a48aa8cf116f76bb">Qui suis-je ? </a></li>
+                <li><a href="https://www.notion.so/Kevin-Detournay-a57c73b6788a4fa3a48aa8cf116f76bb">Qui suis-je ? </a>
+                </li>
                 <li><a href="tel:+33646520398">Tel : 0646520398</a></li>
                 <li><a href="mailto:kevindetournay@hotmail.fr">E-mail : kevindetournay@hotmail.fr</a></li>
                 <li><a href="./CV.pdf">Telecharger mon CV en PDF</a></li>
                 <div class="linkedin">
                     <a target="blank" href="https://www.linkedin.com/in/kevin-detournay-2a604487/"><img class="image"
-                        src="./image/icones/linkedin.svg" alt="linked in"></a>
+                                                                                                        src="./image/icones/linkedin.svg"
+                                                                                                        alt="linked in"></a>
                 </div>
             </ul>
-            </div>
-        </section>                     
-        
-    </main>
-    <footer></footer>
-    
-    
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
-    <script src="./js/app.js"></script>
+        </div>
+    </section>
+
+</main>
+<footer></footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+<script src="./js/app.js"></script>
 </body>
 
 </html>
